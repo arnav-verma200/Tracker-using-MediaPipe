@@ -2,7 +2,7 @@ import mediapipe as mp
 import cv2
 
 # Camera source
-url = "http://192.168.1.6:8080/video"
+url = "" #Url of IP cam
 cap = cv2.VideoCapture(0)   # change to 'url' if using IP cam
 
 # Mediapipe setup
